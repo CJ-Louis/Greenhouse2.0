@@ -12,3 +12,37 @@
 .climate-stats > * {
   margin: 10px 0;
 }
+
+.everythings-burning {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(255, 255, 255);
+  color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  animation: blinker 1s linear infinite;
+}
+
+.winter-wonderland {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(90, 182, 232, 0.343);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
